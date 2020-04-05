@@ -10,13 +10,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { SiteHeaderComponent } from './site-header/site-header.component';
+import { SiteFooterComponent } from './site-footer/site-footer.component';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
     AppComponent,
-    SiteHeaderComponent
+    SiteHeaderComponent,
+    SiteFooterComponent
   ],
   imports: [
     BrowserModule,
