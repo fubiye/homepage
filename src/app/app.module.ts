@@ -11,6 +11,8 @@ import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { SiteHeaderComponent } from './site-header/site-header.component';
 import { SiteFooterComponent } from './site-footer/site-footer.component';
+import { SiteContentComponent } from './site-content/site-content.component';
+import { PersonalSummaryComponent } from './personal-summary/personal-summary.component';
 
 registerLocaleData(zh);
 
@@ -18,7 +20,9 @@ registerLocaleData(zh);
   declarations: [
     AppComponent,
     SiteHeaderComponent,
-    SiteFooterComponent
+    SiteFooterComponent,
+    SiteContentComponent,
+    PersonalSummaryComponent
   ],
   imports: [
     BrowserModule,
